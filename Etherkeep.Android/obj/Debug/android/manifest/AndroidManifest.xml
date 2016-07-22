@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Etherkeep.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="Etherkeep.Android" android:name="md52a40b73923f373d3b19b019549e07502.App" android:allowBackup="true" android:debuggable="true">
     <activity android:label="MainActivity" android:name="md52a40b73923f373d3b19b019549e07502.MainActivity" />
     <activity android:label="SigninActivity" android:name="md52a40b73923f373d3b19b019549e07502.SigninActivity" />
     <activity android:label="SignupActivity" android:name="md52a40b73923f373d3b19b019549e07502.SignupActivity" />

@@ -16,14 +16,16 @@ namespace Etherkeep.Android
 {
     abstract public class BaseActivity : Activity
     {
-        protected HttpHelper HttpHelper;
-        protected AuthService AuthService;
-        protected ApiClient ApiClient;
+        protected App AppContext
+        {
+            get
+            {
+                return (App)this.ApplicationContext;
+            }
+        }
 
         public BaseActivity()
         {
-            this.AuthService = new AuthService(this);
-            this.ApiClient = new ApiClient(this.AuthService);
         }
 
         protected override void OnCreate(Bundle savedInstanceState)

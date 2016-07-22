@@ -17,7 +17,7 @@ namespace Etherkeep.Android
             
             SetContentView(Resource.Layout.Splash);
 
-            if(this.AuthService.IsSignedIn)
+            if(this.AppContext.GetAuthService().IsSignedIn)
             {
                 StartActivity(typeof(MainActivity));
             }else

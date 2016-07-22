@@ -12,14 +12,18 @@ using Android.Widget;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Android.Util;
 
 namespace Etherkeep.Android.Utilities
 {
     public class HttpHelper
     {
+        const string LOG_TAG = "HttpHelper";
         private HttpClient Client;
         public HttpHelper()
         {
+            Log.Debug(LOG_TAG, "Initializing HttpHelper.");
+
             this.Client = this.GetHttpClient();
         }
         private HttpClient GetHttpClient()

@@ -26,10 +26,11 @@ namespace Etherkeep.Android
             
             try
             {
-                var response = await this.HttpHelper.GetAsync("http://api.dev.caricoin.com/v1/public/exchange_rates");
+                App application = (App)this.ApplicationContext;
 
-                Log.Debug(LOG_TAG, await response.Content.ReadAsStringAsync());
-                Console.WriteLine(await response.Content.ReadAsStringAsync());
+                await application.GetAuthService().SigninAsync("waprave@gmail.com", "passwor");
+
+                Log.Debug(LOG_TAG, "Logged In");
             }
             catch(Exception ex)
             {

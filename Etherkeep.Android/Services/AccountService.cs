@@ -9,14 +9,17 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Etherkeep.Android.Utilities;
+using Android.Util;
 
 namespace Etherkeep.Android.Services
 {
     class AccountService : BaseApiService
     {
-        public AccountService(AuthService authService):base(authService)
+        const string LOG_TAG = "AccountService";
+        public AccountService(ApiClient apiClient) : base(apiClient)
         {
-            
+            Log.Debug(LOG_TAG, "Initializing AccountService.");
         }
         public void Signup()
         {

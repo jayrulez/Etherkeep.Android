@@ -13,17 +13,21 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net;
 using Etherkeep.Android.Services;
+using Android.Util;
 
 namespace Etherkeep.Android.Utilities
 {
     public class ApiClient
     {
+        const string LOG_TAG = "ApiClient";
         const string BaseUrl = "http://server.etherkeep.com/api";
         protected AuthService AuthService;
         protected HttpHelper HttpHelper;
 
         public ApiClient(AuthService authService)
         {
+            Log.Debug(LOG_TAG, "Initializing ApiClient.");
+
             this.HttpHelper = new HttpHelper();
             this.AuthService = authService;
         }
@@ -65,13 +69,17 @@ namespace Etherkeep.Android.Utilities
 
             if(response.StatusCode == HttpStatusCode.Unauthorized && options.Headers.ContainsKey("Authorization"))
             {
-                //Token may have expired
-                //Refresh the token and retry the request
-                this.AuthService.RefreshToken();
 
-                accessToken = this.AuthService.GetAccessToken();
+                lock (this.HttpHelper)
+                {
+                    //Token may have expired
+                    //Refresh the token and retry the request
+                    this.AuthService.RefreshTokenAsync();
 
-                options.Headers["Authorization"] = "Bearer " + accessToken;
+                    accessToken = this.AuthService.GetAccessToken();
+
+                    options.Headers["Authorization"] = "Bearer " + accessToken;
+                }
 
                 return await this.HttpHelper.RequestAsync(options);
             }

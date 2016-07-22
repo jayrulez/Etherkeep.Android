@@ -54,12 +54,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Enums\IdentityType.cs" />
     <Compile Include="Models\SigninModel.cs" />
+    <Compile Include="Models\TokenModel.cs" />
     <Compile Include="Models\User.cs" />
-    <Compile Include="Services\Exception\AuthenticationException.cs" />
+    <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\AuthenticationException.cs" />
+    <Compile Include="Services\BaseApiService.cs" />
     <Compile Include="SigninActivity.cs" />
     <Compile Include="SignupActivity.cs" />
     <Compile Include="SplashActivity.cs" />

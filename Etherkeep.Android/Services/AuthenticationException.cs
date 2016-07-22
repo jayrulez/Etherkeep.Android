@@ -14,5 +14,9 @@ namespace Etherkeep.Android.Services
 {
     class AuthenticationException : Exception
     {
+        public AuthenticationException(string message): base(message)
+        {
+
+        }
     }
 }

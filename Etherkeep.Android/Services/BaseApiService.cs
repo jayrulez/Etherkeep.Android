@@ -17,9 +17,9 @@ namespace Etherkeep.Android.Services
     {
         protected ApiClient ApiClient;
 
-        public BaseApiService(AuthService authService)
+        public BaseApiService(ApiClient apiCLient)
         {
-            this.ApiClient = new ApiClient(authService);
+            this.ApiClient = apiCLient;
         }
     }
 }

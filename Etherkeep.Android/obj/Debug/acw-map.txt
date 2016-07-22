@@ -1,3 +1,7 @@
+Etherkeep.Android.App, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.App
+Etherkeep.Android.App, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.App
+Etherkeep.Android.App;md52a40b73923f373d3b19b019549e07502.App
+etherkeep.android.App;md52a40b73923f373d3b19b019549e07502.App
 Etherkeep.Android.BaseActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.BaseActivity
 Etherkeep.Android.BaseActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.BaseActivity
 Etherkeep.Android.BaseActivity;md52a40b73923f373d3b19b019549e07502.BaseActivity
