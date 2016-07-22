@@ -13,7 +13,7 @@ using Android.Widget;
 namespace Etherkeep.Android
 {
     [Activity(Label = "MainActivity")]
-    public class MainActivity : Activity
+    public class MainActivity : BaseActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

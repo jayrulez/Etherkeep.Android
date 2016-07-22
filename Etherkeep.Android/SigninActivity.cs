@@ -12,7 +12,14 @@ using Android.Widget;
 
 namespace Etherkeep.Android
 {
-    class SigninActivity
+    [Activity(Label = "SigninActivity")]
+    class SigninActivity : BaseActivity
     {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            // Create your application here
+        }
     }
 }

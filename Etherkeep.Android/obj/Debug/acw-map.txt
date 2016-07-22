@@ -1,0 +1,24 @@
+Etherkeep.Android.BaseActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.BaseActivity
+Etherkeep.Android.BaseActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.BaseActivity
+Etherkeep.Android.BaseActivity;md52a40b73923f373d3b19b019549e07502.BaseActivity
+etherkeep.android.BaseActivity;md52a40b73923f373d3b19b019549e07502.BaseActivity
+Etherkeep.Android.MainActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.MainActivity
+Etherkeep.Android.MainActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.MainActivity
+Etherkeep.Android.MainActivity;md52a40b73923f373d3b19b019549e07502.MainActivity
+etherkeep.android.MainActivity;md52a40b73923f373d3b19b019549e07502.MainActivity
+Etherkeep.Android.SigninActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.SigninActivity
+Etherkeep.Android.SigninActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.SigninActivity
+Etherkeep.Android.SigninActivity;md52a40b73923f373d3b19b019549e07502.SigninActivity
+etherkeep.android.SigninActivity;md52a40b73923f373d3b19b019549e07502.SigninActivity
+Etherkeep.Android.SignupActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.SignupActivity
+Etherkeep.Android.SignupActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.SignupActivity
+Etherkeep.Android.SignupActivity;md52a40b73923f373d3b19b019549e07502.SignupActivity
+etherkeep.android.SignupActivity;md52a40b73923f373d3b19b019549e07502.SignupActivity
+Etherkeep.Android.SplashActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.SplashActivity
+Etherkeep.Android.SplashActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.SplashActivity
+Etherkeep.Android.SplashActivity;md52a40b73923f373d3b19b019549e07502.SplashActivity
+etherkeep.android.SplashActivity;md52a40b73923f373d3b19b019549e07502.SplashActivity
+Etherkeep.Android.StartupActivity, Etherkeep.Android;md52a40b73923f373d3b19b019549e07502.StartupActivity
+Etherkeep.Android.StartupActivity, Etherkeep.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52a40b73923f373d3b19b019549e07502.StartupActivity
+Etherkeep.Android.StartupActivity;md52a40b73923f373d3b19b019549e07502.StartupActivity
+etherkeep.android.StartupActivity;md52a40b73923f373d3b19b019549e07502.StartupActivity

@@ -1,0 +1,1 @@
+<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">Etherkeep</string><string name="AuthServerUrl"> http://server.etherkeep.com</string><string name="ApiServerUrl"> http://server.etherkeep.com/api</string></resources>
